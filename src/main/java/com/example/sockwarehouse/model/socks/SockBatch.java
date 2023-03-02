@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Socks {
-    private SockColor color;
-    private SockSize size;
-    private int structure;
-
+public class SockBatch {
+    private Socks socks;
+    private int quantity; //количество носков на складе
 }
